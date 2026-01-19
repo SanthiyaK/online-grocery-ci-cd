@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 grocery_items = [
-    {"id": 1, "name": "Rice", "price": 1000},
+    {"id": 1, "name": "Rice", "price": 100},
     {"id": 2, "name": "Milk", "price": 60},
     {"id": 3, "name": "Sugar", "price": 40}
 ]

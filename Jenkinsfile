@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/grocery-app"
+        IMAGE_NAME = "santhiyakrishdevops/grocery-app"
     }
 
     stages {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/yourusername/online-grocery-ci-cd.git'
+                git 'https://github.com/SanthiyaK/online-grocery-ci-cd'
             }
         }
 
